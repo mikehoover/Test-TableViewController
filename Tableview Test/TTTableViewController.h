@@ -1,5 +1,5 @@
 //
-//  TTViewController.h
+//  TTTableViewController.h
 //  Tableview Test
 //
 //  Created by Mike Hoover on 4/23/14.
@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTViewController : UIViewController
+@interface TTTableViewController : UITableViewController
+
+@property (strong, nonatomic) NSMutableArray *planets;
+
 
 @end
